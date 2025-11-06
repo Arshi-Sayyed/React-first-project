@@ -1,16 +1,16 @@
 import React from "react";
-import Intro from "./Intro";
-import Header from "./Header"; //Import Header component
+import Header from "./Header";
+import HeroSection from "./HeroSection";
+import Services from "./Services";
 
 function App() {
   return (
     <div>
       <Header />
-      <h1>React Project Setup Successful ✅</h1>
-      <Intro />
+      <HeroSection />
+      <Services />
     </div>
   );
 }
 
 export default App;
-
